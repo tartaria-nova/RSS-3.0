@@ -1,4 +1,9 @@
-# JSONFeed
-This is the repository for the [JSONFeed.org](https://jsonfeed.org/) website. It contains the Markdown files and supporting resources, not the actual rendered website.
-
-The current spec, and any older specs (if we ever do more than one), are in the [pages/version/](https://github.com/brentsimmons/JSONFeed/blob/master/pages/version/) folder.
+# RSS 3
+This is the repository for RSS 3 - A new version of RSS written in JSON and harnessing the Matrix Protocol. This new adaptation of RSS began a renassaince for social syndication, highly expanding RSS in stability, capacity and scope of vision. 
+Historically, the RSS formats were preceded by several attempts at web syndication that did not achieve widespread popularity. The basic idea of restructuring information about websites goes back to as early as 1995, when Ramanathan V. Guha and others in Apple's Advanced Technology Group developed the Meta Content Framework. RDF Site Summary, the first version of RSS, was created by Dan Libby and Ramanathan V. Guha at Netscape. It was released in March 1999 for use on the My.Netscape.Com portal. This version became known as RSS 0.9. In July 1999, Dan Libby of Netscape produced a new version, RSS 0.91, which simplified the format by removing RDF elements and incorporating elements from Dave Winer's news syndication format. Libby also renamed the format from RDF to RSS Rich Site Summary and outlined further development of the format.
+In 2009, RSS 2.0 Was released by the RSS board (https://rssboard.org)
+In 2017, Manton Reece and Brent Simmons — noticed that JSON has become the developers’ choice for APIs, and that developers will often go out of their way to avoid XML. JSON is simpler to read and write, and it’s less prone to bugs. Manton Reece and Brent Simmons developed JSON Feed, a format similar to RSS and Atom but in JSON. It reflects the lessons learned from our years of work reading and publishing feeds.
+the [JSONFeed.org](https://jsonfeed.org/) website contains the Markdown files and supporting resources.
+In 2021, Tartary Nova began rewriting RSS 
+The current specification incorporates all of the greatest aspects from JSON Feed project into RSS for RSS has several unique features as well, namely social address books of RSS 3.0 Subscribers via the Matrix Protocol, and full backwards compatability with RSS 2.0 using natural JSON to XML translation. This is huge because it means that old systems can continue to access new data via RSS 3.0, making the transition from RSS 2.0 to RSS 3.0 easy, harmless and instant.
+We hope you enjoy our work on RSS 3.0 If you are interested in helping out you can find us in the Tartary Nova Discord.
